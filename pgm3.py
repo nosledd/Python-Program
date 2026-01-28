@@ -26,4 +26,4 @@ if (bank%5==0):
   print("Number of 10 notes :", num6)
 
 else: 
-   print("Error")
+   print("Error") 
