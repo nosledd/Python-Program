@@ -27,4 +27,4 @@ elif(val<=30):
     print("Fine of",fine)
 
 else:
-    print("Subscription Cancelled")
+    print("Subscription Cancelled") 
