@@ -25,6 +25,6 @@ r= rectangle(l,b)
 r.area()
 r.perimeter()
 
-b= box(h,b,l)
-b.surface_area_box()
+bb= box(h,b,l)
+bb.surface_area_box()
         
