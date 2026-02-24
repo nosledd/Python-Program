@@ -20,7 +20,7 @@ class box(rectangle):
         box= ((2 * self.length * self.width) +  (2 * self.length * self.height) + (2 * self.width * self.height))
         print("Surface Area of Box:", box)
 
-l,b,h= map(int, input("Enter Length, Height, Width: ").split())    
+l,b,w= map(int, input("Enter Length, Height, Width: ").split())    
 r= rectangle(l,b)
 r.area()
 r.perimeter()
