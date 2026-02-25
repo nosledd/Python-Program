@@ -62,7 +62,7 @@ for c in customers:
     c.display()
     print()
 
-loan.loan_details(
+loan.loan_details()
 
 
         
