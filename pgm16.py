@@ -32,10 +32,9 @@ class loan(bank):
             print("Insufficient Bank Fund") 
 
     def display(self):
-        print("\n--Customer Details--")
         print("Customer Name: ", self.name)
         print("Customer Id:", self.id)
-        print("Loan Amount:", self.loan_amount)
+        print("Loan Amount Given:", self.loan_amount)
 
     @classmethod
     def loan_details(self):
