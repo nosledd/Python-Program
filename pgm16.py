@@ -58,7 +58,7 @@ while(choice.upper() == "Y"):
     choice= input("\nDo you want to continue (Y/N): ")
 
 print("\n--Customer Details--")
-for c in customers:
+for c in customers:                             # Customer list stores multiple objects inside it
     c.display()
     print()
 
