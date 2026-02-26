@@ -59,7 +59,7 @@ while(choice.upper() == "Y"):
 
 print("\n--Customer Details--")
 for c in customers:                             # Customer list stores multiple objects inside it
-    c.display()
+    c.display()                                 # displayed as per each object
     print()
 
 loan.loan_details()
