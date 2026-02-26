@@ -6,8 +6,8 @@ class tourism(ABC):
     def __init__(self,cust_name):
         self.name= cust_name
 
-    @abstractmethod
-    def booking(value):
+    @abstractmethod                
+    def booking(value):                   
         pass
 
 class guesthouse(tourism):
