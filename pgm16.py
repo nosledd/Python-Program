@@ -63,8 +63,3 @@ for c in customers:                             # Customer list stores multiple 
     print()
 
 loan.loan_details()
-
-
-        
-
-    
