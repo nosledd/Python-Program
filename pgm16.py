@@ -2,7 +2,7 @@ class LowIncome(Exception):
     pass
 
 class bank():
-    cust_count= 0                # Customer
+    cust_count= 0                # Customer coun
     def __init__(self,name,id):
         self.name= name
         self.id= id
